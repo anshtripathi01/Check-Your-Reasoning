@@ -82,7 +82,7 @@ if(score>high){
     i++;
   }
   else{
-    console.log(chalk("Oops! Better Luck next Time"));
+    console.log(chalk.red("Oops! Better Luck next Time"));
   }
 }
 
